@@ -15,7 +15,7 @@ public class BFS<T> {
         // Can I continue expanding?
         while (!queue.isEmpty()) {
             currentNode = queue.remove();
-            System.out.println("Visiting: " + currentNode.getValue());
+            System.out.println("VISITANDO EL NODO: " + currentNode.getValue());
 
             // if im on Goal
             if (currentNode.getValue().equals(goal)) {
